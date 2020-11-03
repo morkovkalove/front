@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* color: */
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 49px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 70px;
+    padding-bottom: 141px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 157px;
+    width: 562px;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.title span {
+    text-transform: uppercase;
+     
+}
+
+.intro {
+    margin-bottom: 44px;
+    margin-top: 20px;
+    width: 401px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #fff;
+    border-radius: 0;
+    display: block;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+   background: #e9ce65; 
+   color: #fff;
+}
+
+.travel {
+    margin-top: 52px;
+}
+
+.learn {
+    padding-top: 109px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    height: 115px;;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+
+    background: url('../icons/1.png') no-repeat left top;
+    padding-top: 73px;
+    
+}
+
+.skill-title {
+   text-align: center;
+    
+}
+
+.skill-text {
+    width: 307px;
+    text-align: center;
+    margin-block-start: auto;
+}
+
+.skill-tree {
+    background: url('../icons/2.png') no-repeat left top;
+    text-align: center;
+}
+
+.skill-rocket {
+    background: url('../icons/3.png') no-repeat left top;
+    text-align: center;
+    
+}
+
+.form {
+    background: #ecf3f8;
+    padding-bottom: 105px;
+}
+
+.issue {
+   padding-top: 102px;
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+form input {
+    display: block;
+    width: 340px;
+    height: 47px;
+    margin-top: 15px;
+    margin-left: 750px;
+    padding-left: 22px;
+    /* display: flex;
+    flex-direction: column; */
+    background: #ecf3f8;
+}
+
+
+
+
+.btn2 a {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #000;
+    border-radius: 0;
+    display: block;
+    width: 340px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin-top: 15px;
+    margin-left: 750px;   
+}
+
+footer {
+    background: #164d7a;
+    padding-top: 62px;
+    padding-bottom: 62px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+   
+}
