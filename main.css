@@ -1,0 +1,150 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #000000;
+	padding: 0;
+    margin: 0;
+}
+header {
+	font-family: 'Open-sans', sans-serif;
+}
+	
+.logo {
+	display: block;
+	color: #fff;
+	width: auto;
+	height: 127px;
+	padding: 54px 0 0 138px;	
+}
+.wrapper {
+	position: absolute;
+	top: 45px;
+	width: 960px;
+	height: 48px;
+	padding: 0 0 34px 117px;
+	color: #ffffff;
+}
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 149px;
+	font-size: 27px;
+	list-style-type: none;
+}
+
+.menu .menu_link {
+	color: #ffffff;
+	text-decoration: none;
+	letter-spacing: 7px;
+}
+
+
+.shape {
+	border: 1px solid #ffffff;
+	margin: 40px 0 0 155px;
+}
+
+.main_bg {
+
+	padding: 1728px 0 0 728px;
+	background: url('../img/bg.png');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title{
+	display: block;
+	margin-left: 145px;
+	color: #ffffff;
+	font-family: "Permanent Marker";
+	font-size: 135px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	color: #fefefe;
+	font-family: "Open Sans";
+	font-size: 17px;
+	margin-left: 145px;
+	letter-spacing: 0.23px;
+}
+
+.btn {
+	margin-left: 135px;
+	margin-top: 123px;
+}
+
+.btn a{
+	position: absolute;
+	bottom: 7%;
+	margin: 0 0 0 75px;
+	display: block;
+	color: black;
+	font-family: "Open Sans";
+	font-size: 69px;
+	font-weight: 700;
+	line-height: 91.91px;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+
+
+.background {
+	margin-top: 247px;
+
+}
+
+
+
+.finish_item {
+	padding: 30px;
+	margin-left: 36px;
+
+}
+
+.background {
+	padding: 285px;
+	background: url('../img/footer.png') bottom left no-repeat;
+}
+
+.finish_item {
+	padding: 70px 120px 0 0;
+}
+
+
+.background img {
+	/*position: absolute;
+	bottom: -75%;*/
+	display: inline-block;
+	border: 5px solid black;
+	border-radius: 100px;
+	background-color: black;
+}
+
+.first {
+	position: absolute;
+	left: 8%;
+	bottom: -75%;
+}
+
+.second {
+	position: absolute;
+	left: 17%;
+	bottom: -75%;
+}
+
+.third {
+	position: absolute;
+	left: 26%;
+	bottom: -75%;
+}
+
+.fouth {
+	position: absolute;
+	left: 35%;
+	bottom: -75%;
+}
